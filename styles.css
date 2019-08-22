@@ -1,13 +1,8 @@
 .flexbox-container {
     /*Defining container as a flex container*/
     display: flex;
-    /*Items will wrap in different lines instead of shrinking their size*/
-    flex-wrap:wrap;
-    /* Items are positioned on the main axis and cross axis*/
-    /*Positioning items horizontally with flex-start,center, space-between or space-around*/
-    justify-content: space-around;
-    /*Positioning items vertically*/
-    align-items: center;
+    /*Flex items are positioned like a column*/
+    flex-direction: column;
     background-color:green;
 }
 
