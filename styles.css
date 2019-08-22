@@ -1,8 +1,12 @@
 .flexbox-container {
+    /*Defining container as a flex container*/
     display: flex;
+    /* Items are positioned on the main axis and cross axis*/
+    /*Positioning items horizontally with flex-start,center, space-between or space-around*/
     justify-content: space-around;
-    background-color:green;
+    /*Positioning items vertically*/
     align-items: center;
+    background-color:green;
 }
 
 .flexbox-item {
