@@ -15,12 +15,18 @@
 
 .flexbox-item-1 {
     min-height: 100px;
+    /*Changing the order of the items*/
+    order: 3;
 }
 
 .flexbox-item-2 {
     min-height: 200px;
+    /*Changing the order of the items*/
+    order: 1;
 }
 
 .flexbox-item-3 {
     min-height: 300px;
+    /*Changing the order of the items*/
+    order: 2;
 }
